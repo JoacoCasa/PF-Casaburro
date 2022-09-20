@@ -230,13 +230,3 @@ footer {
 }
 
 /*FOOTER*/
-.footer {
-height: 250px;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-}
-
-.contactoFooter {
-        flex-direction: column ;
-}
