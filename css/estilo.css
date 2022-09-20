@@ -228,18 +228,20 @@ footer {
 
    }
 .productos__pan {
-    background-color: #86421d;
-    padding: 6rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 3rem;
     margin: 9px 0px 9px 0px;
+    
 }   
 .productos__pan-row {
-    background-color: #86421d;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    color:  #86421d;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
+    font-size: 19px;
     
     
 }
@@ -262,28 +264,38 @@ footer {
 
 /*FOOTER*/
 .footer {
-    padding-top: 10px;
-    height: 15.6rem;
+    margin-top: 10px;
+    padding-top: 60px;
+    height: 50vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns:0.5fr 2fr 0.5fr ;
     grid-template-areas: 
-    "panaderiaFoter contactoFooter mapaFooter horariosFooter"
-    
-    }
+    "panaderia-Footer contacto-Footer mapa-Footer horarios-Footer";
+    grid-template-rows: 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: #820000;
+    color: white;
+        }
     .panaderiaFooter {
-        grid-area: panaderiaFoter;
+        grid-area: panaderia-Footer;
+    text-align: center;
     }
 
     .contactoFooter {
-        grid-area: contactoFooter;
+        grid-area: contacto-Footer;
+        text-align: center;
     }
     
     .mapaFooter { 
-        grid-area: mapaFooter;
+        grid-area: mapa-Footer;
     }
 
     .horariosFooter {
-      grid-area: horariosFooter;
+      grid-area: horarios-Footer;
+      text-align: center;
+    }
+
+    .contbold {
+        font-weight: bold;
     }
    
