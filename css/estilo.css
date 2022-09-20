@@ -231,7 +231,7 @@ footer {
 
 /*FOOTER*/
 .footer {
-    height: 250px;
+    height: 15.6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
