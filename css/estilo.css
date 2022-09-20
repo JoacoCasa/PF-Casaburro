@@ -1,0 +1,242 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+/*HEADER*/
+
+header {
+    background-color: white;
+    padding-top: 50px;
+}
+h1 {
+    font-family: 'Mitr', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #B93160;
+   
+
+}
+/*NAV*/
+
+.panaderiaNav {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+nav { margin-top: 10px ;
+
+}
+
+nav .navi { 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+   
+    
+}
+nav .navi a {
+    text-decoration: none;
+    color: black;
+}
+.navi li { 
+    display: inline-block;
+    padding-right: 15px;   
+}
+
+
+.redesSoc {
+height: 10px;
+}
+/*MAIN*/
+
+/*.imagenAmasar {
+    margin-top: 20px;
+    
+}
+.imagenAmasar img {
+width: 100%;
+
+}/*
+/*SECTIÓN*/
+
+.amoratodo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+     width: 100%;
+}
+.pamor {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.amoratodo__div {
+}
+
+.amoratodo__h2 {
+    margin: 20px;
+    font-family: 'Mitr', sans-serif; 
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.amoratodo__img { 
+    padding-right: 20px;
+    
+}
+
+/*SECT. PRODU*/ 
+.produ {
+    font-family: 'Mitr', sans-serif; 
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.produimg {
+    padding: 30px; 
+    padding-left: 100px;
+   
+}
+
+.produimg .produimg__1 {
+    width: 400px;
+    height: 199px;
+}
+
+.produimg .produimg__3 {
+    width: 400px;
+    height: 199px;
+}
+
+.footer {
+    background-color: #FEC260;
+}
+
+/*Clase 06*/
+
+/*Propiedad de los hijos
+
+.hijo {
+    background-color: tomato;
+
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr) ;
+    grid-template-rows: repeat(2, 350px);
+    gap: 5px;
+}*/
+
+.ejemplo {
+    background-color: thistle;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 200px 350px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.imagen-uno {
+    justify-self: end;
+    align-self: end;
+}
+
+.contenedor {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.3fr 2fr 1fr 0.3fr;
+    grid-template-columns:0.5fr 2fr 0.5fr ;
+    grid-template-areas: 
+    "nav header-pepito header-pepito" 
+    "nav main section"
+    "nav section-dos section"
+    "nav footer footer";
+    
+    gap: 5px;
+
+    }
+
+.header-pepito{
+    grid-area: header;
+    background-color: white;
+
+}
+
+nav {
+  grid-area: nav;
+  background-color: white;
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+}
+
+section {grid-area: section;
+    background-color:white;
+}
+
+
+.section-dos {
+    grid-area: section-dos;
+    background-color: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: goldenrod;
+}
+
+/*PRODUCTOS*/
+
+.productos {
+    background-image: url(../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    color: white;
+    text-align: center;
+}
+
+.productos h2 {
+  padding-top: 30px;
+  font-size: 5rem;
+}
+.productos p {
+    padding: 20px 100px 20px 100px;
+    font-size: x-large;
+
+   }
+.productos__pan {
+    background-color: #3D1A07;
+    color: white;
+}
+
+/*FOOTER*/
+.footer {
+height: 250px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.contactoFooter {
+        flex-direction: column ;
+}
