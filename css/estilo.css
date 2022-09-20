@@ -71,7 +71,8 @@ width: 100%;
     flex-direction: row;
     justify-content: space-around;
     margin: 25px;
-     width: 100%;
+    padding: 100px;
+    width: 100%;
 }
 .pamor {
     margin: 20px;
@@ -107,8 +108,9 @@ width: 100%;
     
 }
 .produimg {
-    padding: 30px; 
-    padding-left: 100px;
+    width: 100%;
+    padding: 80px; 
+    text-align: center;
    
 }
 
@@ -140,7 +142,7 @@ width: 100%;
     grid-template-columns: repeat(4, 3fr) ;
     grid-template-rows: repeat(2, 350px);
     gap: 5px;
-}*/
+
 
 .ejemplo {
     background-color: thistle;
@@ -168,10 +170,9 @@ width: 100%;
     "nav main section"
     "nav section-dos section"
     "nav footer footer";
-    
     gap: 5px;
 
-    }
+    }}*/
 
 .header-pepito{
     grid-area: header;
@@ -210,10 +211,12 @@ footer {
     background-image: url(../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 25rem;
+    height: 30rem;
     color: white;
     text-align: center;
+    margin-bottom: 9px;
 }
+
 
 .productos h2 {
   padding-top: 30px;
@@ -225,18 +228,62 @@ footer {
 
    }
 .productos__pan {
-    background-color: #3D1A07;
+    background-color: #86421d;
+    padding: 6rem;
+    margin: 9px 0px 9px 0px;
+}   
+.productos__pan-row {
+    background-color: #86421d;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+.productos__pan ul {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.pancito {
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.pancitoimg {
+    width: 100%;
+    text-align: center ;
 }
 
 /*FOOTER*/
 .footer {
+    padding-top: 10px;
     height: 15.6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:0.5fr 2fr 0.5fr ;
+    grid-template-areas: 
+    "panaderiaFoter contactoFooter mapaFooter horariosFooter"
+    
+    }
+    .panaderiaFooter {
+        grid-area: panaderiaFoter;
+    }
+
+    .contactoFooter {
+        grid-area: contactoFooter;
     }
     
-    .contactoFooter {
-            flex-direction: column ;
+    .mapaFooter { 
+        grid-area: mapaFooter;
     }
+
+    .horariosFooter {
+      grid-area: horariosFooter;
+    }
+   
