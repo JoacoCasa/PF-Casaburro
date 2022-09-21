@@ -10,14 +10,15 @@
 
 header {
     background-color: white;
-    padding-top: 50px;
+    padding-top: 3.12rem;
 }
 h1 {
     font-family: 'Mitr', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #B93160;
+    text-align: center;
    
 
 }
@@ -25,7 +26,7 @@ h1 {
 
 .panaderiaNav {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 nav { margin-top: 10px ;
@@ -34,10 +35,11 @@ nav { margin-top: 10px ;
 
 nav .navi { 
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     justify-content: center;
-    padding-left: 100px;
+  
+    
    
     
 }
@@ -47,12 +49,19 @@ nav .navi a {
 }
 .navi li { 
     display: inline-block;
-    padding-right: 15px;   
+    padding-right: 0.93rem;
+       
+}
+
+.navi li:hover { 
+ transform: scale(0.9);
+    
+     
 }
 
 
 .redesSoc {
-height: 10px;
+height: 0.62rem;
 }
 /*MAIN*/
 
@@ -70,14 +79,14 @@ width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 25px;
-    padding: 100px;
+    margin: 1.56rem;
+    padding: 6.25rem;
     width: 100%;
 }
 .pamor {
-    margin: 20px;
+    margin: 1.25rem;
     font-family: 'Roboto', sans-serif; 
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     font-size: medium;
 }
@@ -86,22 +95,22 @@ width: 100%;
 }
 
 .amoratodo__h2 {
-    margin: 20px;
+    margin: 1.25rem;
     font-family: 'Mitr', sans-serif; 
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
 }
 .amoratodo__img { 
-    padding-right: 20px;
+    padding-right: 1.25rem;
     
 }
 
 /*SECT. PRODU*/ 
 .produ {
     font-family: 'Mitr', sans-serif; 
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
@@ -109,101 +118,21 @@ width: 100%;
 }
 .produimg {
     width: 100%;
-    padding: 80px; 
+    padding: 5rem; 
     text-align: center;
    
 }
 
 .produimg .produimg__1 {
-    width: 400px;
-    height: 199px;
+    width: 25rem;
+    height: 12.43rem;
 }
 
 .produimg .produimg__3 {
-    width: 400px;
-    height: 199px;
+    width: 25rem;
+    height: 12.43rem;
 }
 
-.footer {
-    background-color: #FEC260;
-}
-
-/*Clase 06*/
-
-/*Propiedad de los hijos
-
-.hijo {
-    background-color: tomato;
-
-}
-
-.padre {
-    display: grid;
-    grid-template-columns: repeat(4, 3fr) ;
-    grid-template-rows: repeat(2, 350px);
-    gap: 5px;
-
-
-.ejemplo {
-    background-color: thistle;
-    height: 500px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 200px 350px;
-    justify-items: center;
-    align-items: center;
-}
-
-
-.imagen-uno {
-    justify-self: end;
-    align-self: end;
-}
-
-.contenedor {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 0.3fr 2fr 1fr 0.3fr;
-    grid-template-columns:0.5fr 2fr 0.5fr ;
-    grid-template-areas: 
-    "nav header-pepito header-pepito" 
-    "nav main section"
-    "nav section-dos section"
-    "nav footer footer";
-    gap: 5px;
-
-    }}*/
-
-.header-pepito{
-    grid-area: header;
-    background-color: white;
-
-}
-
-nav {
-  grid-area: nav;
-  background-color: white;
-}
-
-main {
-    grid-area: main;
-    background-color: white;
-}
-
-section {grid-area: section;
-    background-color:white;
-}
-
-
-.section-dos {
-    grid-area: section-dos;
-    background-color: white;
-}
-
-footer {
-    grid-area: footer;
-    background-color: goldenrod;
-}
 
 /*PRODUCTOS*/
 
@@ -219,18 +148,18 @@ footer {
 
 
 .productos h2 {
-  padding-top: 30px;
+  padding-top: 1.87rem;
   font-size: 5rem;
 }
 .productos p {
-    padding: 20px 100px 20px 100px;
+    padding: 1.25rem 6.25rem 1.25rem 6.25rem;
     font-size: x-large;
 
    }
 .productos__pan {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 3rem;
-    margin: 9px 0px 9px 0px;
+    margin: 0.56rem 0px 0.56rem 0px;
     
 }   
 .productos__pan-row {
@@ -241,7 +170,7 @@ footer {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 1.18rem;
     
     
 }
@@ -252,7 +181,7 @@ footer {
 }
 
 .pancito {
-    width: 100px;
+    width: 6.25rem;
     align-items: center;
     text-align: center;
     justify-items: center;
@@ -264,8 +193,8 @@ footer {
 
 /*FOOTER*/
 .footer {
-    margin-top: 10px;
-    padding-top: 60px;
+    margin-top: 0.62rem;
+    padding-top: 3.75rem;
     height: 50vh;
     display: grid;
     grid-template-areas: 
@@ -299,3 +228,12 @@ footer {
         font-weight: bold;
     }
    
+    /*medidas queries*/
+    
+ @media screen and (max-width:600px) {
+   
+    h1 { font-size: 2rem;}
+    .navi li { font-size: 0.7rem;
+        text-align: center;
+    }
+ }
