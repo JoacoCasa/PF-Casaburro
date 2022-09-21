@@ -59,39 +59,26 @@ nav .navi a {
      
 }
 
-
 .redesSoc {
 height: 0.62rem;
 }
 /*MAIN*/
 
-/*.imagenAmasar {
-    margin-top: 20px;
-    
-}
-.imagenAmasar img {
-width: 100%;
-
-}/*
 /*SECTIÓN*/
 
 .amoratodo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 1.56rem;
     padding: 6.25rem;
     width: 100%;
 }
 .pamor {
-    margin: 1.25rem;
     font-family: 'Roboto', sans-serif; 
     font-size: 1.25rem;
     font-weight: 300;
     font-size: medium;
-}
-
-.amoratodo__div {
+    text-align: center;
 }
 
 .amoratodo__h2 {
@@ -191,6 +178,7 @@ width: 100%;
     text-align: center ;
 }
 
+
 /*FOOTER*/
 .footer {
     margin-top: 0.62rem;
@@ -233,7 +221,72 @@ width: 100%;
  @media screen and (max-width:600px) {
    
     h1 { font-size: 2rem;}
-    .navi li { font-size: 0.7rem;
+    .navi li { font-size: 0.9rem;
         text-align: center;
     }
- }
+    .amoratodo {
+        padding: 0.9rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .amoratodo__img {
+        width: 105%;
+        text-align: center;
+
+    }
+    .produ, .produimg {
+        display: none;
+    }
+        .footer {
+            margin-top: 0.62rem;
+            padding-top: 3.75rem;
+            height: 90vh;
+            display: grid;
+            grid-template-areas: 
+            "panaderia-Footer" 
+            "contacto-Footer" 
+            "mapa-Footer" 
+            "horarios-Footer";
+            grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+            grid-template-columns: 1fr; 
+            row-gap: 10px;
+            background-color: #820000;
+            color: white;
+                }
+            .panaderiaFooter {
+                grid-area: panaderia-Footer;
+            text-align: center;
+
+            }
+        
+            .contactoFooter {
+                grid-area: contacto-Footer;
+                text-align: center;
+            }
+            
+            .mapaFooter { 
+                grid-area: mapa-Footer;
+                text-align: center;
+            }
+        
+            .horariosFooter {
+              grid-area: horarios-Footer;
+              text-align: center;
+            }
+        
+            .contbold {
+                font-weight: bold;
+            }
+    
+    .productos h2 {
+        font-size: 3rem;
+    }
+    .productos p {
+        font-size: 1.1rem;
+    }
+    .productos__pan ul {
+        font-size: 1rem;
+        
+    } .produimg2 { display: none;}
+        }
+ 
