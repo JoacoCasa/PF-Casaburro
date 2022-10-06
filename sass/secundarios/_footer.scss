@@ -1,0 +1,33 @@
+/*FOOTER*/
+
+.footer {
+    margin-top: 0.62rem;
+    padding-top: 3.75rem;
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+    "panaderia-Footer contacto-Footer mapa-Footer horarios-Footer";
+    grid-template-rows: 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: #820000;
+    color: white;
+    .panaderiaFooter {
+        grid-area: panaderia-Footer;
+        text-align: center;
+    }
+    .contactoFooter {
+        grid-area: contacto-Footer;
+        text-align: center;
+        .contbold {
+            font-weight: bold;
+        }
+    }
+    .mapaFooter { 
+        grid-area: mapa-Footer;
+    }
+    .horariosFooter {
+        grid-area: horarios-Footer;
+        text-align: center;
+      }
+}

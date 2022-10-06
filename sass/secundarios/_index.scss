@@ -1,0 +1,56 @@
+/*MAIN DE INDEX*/
+
+/*SECTION*/
+.amoratodo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6.25rem;
+    width: 100%;
+    .amoratodo__div {
+        .amoratodo__h2 {
+            margin: 1.25rem;
+            font-family: 'Mitr', sans-serif; 
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: center;
+    }
+        .pamor {
+            font-family: 'Roboto', sans-serif; 
+            font-size: 1.25rem;
+            font-weight: 300;
+            font-size: medium;
+            text-align: center;
+            margin: 1.5rem;
+    }
+}
+.amoratodo__img {
+padding-right: 1.25rem;
+}
+}
+/*SECT. PRODU*/
+
+.produ {
+    font-family: 'Mitr', sans-serif; 
+    font-size: 1.87rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  
+}
+
+.produimg {
+    width: 100%;
+    padding: 5rem; 
+    text-align: center;
+    .produimg__1 {
+        width: 25rem;
+        height: 12.43rem;}
+        .produimg .produimg__3 {
+            width: 25rem;
+            height: 12.43rem;
+        }
+    
+   
+}

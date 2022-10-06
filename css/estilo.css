@@ -1,301 +1,226 @@
 /*RESET*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /*HEADER*/
+.panaderiaNav {
+  font-family: 'Mitr', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #B93160;
+  text-align: center;
+  padding-bottom: 3.125rem; }
 
-header {
-    background-color: white;
-    padding-top: 3.12rem;
-}
-h1 {
+nav {
+  margin-top: 10px; }
+  nav .navi {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    justify-content: center; }
+    nav .navi :hover {
+      transform: scale(0.9); }
+    nav .navi li {
+      display: inline-block;
+      padding-right: 0.93rem; }
+      nav .navi li a {
+        text-decoration: none;
+        color: black; }
+
+/*FOOTER*/
+.footer {
+  margin-top: 0.62rem;
+  padding-top: 3.75rem;
+  height: 50vh;
+  display: grid;
+  grid-template-areas: "panaderia-Footer contacto-Footer mapa-Footer horarios-Footer";
+  grid-template-rows: 0.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  background-color: #820000;
+  color: white; }
+  .footer .panaderiaFooter {
+    grid-area: panaderia-Footer;
+    text-align: center; }
+  .footer .contactoFooter {
+    grid-area: contacto-Footer;
+    text-align: center; }
+    .footer .contactoFooter .contbold {
+      font-weight: bold; }
+  .footer .mapaFooter {
+    grid-area: mapa-Footer; }
+  .footer .horariosFooter {
+    grid-area: horarios-Footer;
+    text-align: center; }
+
+/*MAIN DE INDEX*/
+/*SECTION*/
+.amoratodo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6.25rem;
+  width: 100%; }
+  .amoratodo .amoratodo__div .amoratodo__h2 {
+    margin: 1.25rem;
     font-family: 'Mitr', sans-serif;
     font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: #B93160;
-    text-align: center;
-   
-
-}
-/*NAV*/
-
-.panaderiaNav {
-    text-align: center;
-    padding-bottom: 3.125rem;
-}
-
-nav { margin-top: 10px ;
-
-}
-
-nav .navi { 
-    font-weight: bold;
-    font-size: 1.25rem;
-    text-align: center;
-    justify-content: center;
-  
-    
-   
-    
-}
-nav .navi a {
-    text-decoration: none;
-    color: black;
-}
-.navi li { 
-    display: inline-block;
-    padding-right: 0.93rem;
-       
-}
-
-.navi li:hover { 
- transform: scale(0.9);
-    
-     
-}
-
-.redesSoc {
-height: 0.62rem;
-}
-/*MAIN*/
-
-/*SECTIÓN*/
-
-.amoratodo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 6.25rem;
-    width: 100%;
-}
-.pamor {
-    font-family: 'Roboto', sans-serif; 
+    text-align: center; }
+  .amoratodo .amoratodo__div .pamor {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
     font-size: medium;
     text-align: center;
-    margin: 1.5rem;
-}
+    margin: 1.5rem; }
+  .amoratodo .amoratodo__img {
+    padding-right: 1.25rem; }
 
-.amoratodo__h2 {
-    margin: 1.25rem;
-    font-family: 'Mitr', sans-serif; 
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-}
-.amoratodo__img { 
-    padding-right: 1.25rem;
-    
-}
-
-/*SECT. PRODU*/ 
+/*SECT. PRODU*/
 .produ {
-    font-family: 'Mitr', sans-serif; 
-    font-size: 1.87rem;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    
-}
+  font-family: 'Mitr', sans-serif;
+  font-size: 1.87rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase; }
+
 .produimg {
-    width: 100%;
-    padding: 5rem; 
+  width: 100%;
+  padding: 5rem;
+  text-align: center; }
+  .produimg .produimg__1 {
+    width: 25rem;
+    height: 12.43rem; }
+  .produimg .produimg .produimg__3 {
+    width: 25rem;
+    height: 12.43rem; }
+
+/*QUIENES SOMOS*/
+.somosfam {
+  background-color: #e8dcdc;
+  display: flex;
+  flex-direction: row; }
+  .somosfam div .ptitulo {
+    justify-content: center;
+    align-items: center;
     text-align: center;
-   
-}
+    justify-items: center;
+    padding: 1rem;
+    color: #B93160;
+    font-size: 2.5rem; }
+  .somosfam div p {
+    margin: 2rem;
+    text-align: center; }
 
-.produimg .produimg__1 {
-    width: 25rem;
-    height: 12.43rem;
-}
+.somospan {
+  background-color: #e8dcdc;
+  display: flex;
+  flex-direction: row-reverse; }
+  .somospan div .ptitupan {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 1rem;
+    color: #B93160;
+    font-size: 2.5rem; }
+  .somospan div p {
+    margin: 2rem;
+    text-align: center; }
 
-.produimg .produimg__3 {
-    width: 25rem;
-    height: 12.43rem;
-}
-
+.artesanalyabun {
+  background-color: grey;
+  display: flex;
+  flex-direction: column; }
+  .artesanalyabun .artesanaltit {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 1rem;
+    color: white;
+    font-size: 2.5rem; }
+  .artesanalyabun p {
+    margin: 1.5rem;
+    text-align: center; }
+  .artesanalyabun button {
+    width: 10rem;
+    height: 3rem;
+    margin-left: 84rem;
+    margin-bottom: 1rem; }
 
 /*PRODUCTOS*/
-
 .productos {
-    background-image: url(../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 9px;
-}
-
-
-.productos h2 {
-  padding-top: 1.87rem;
-  font-size: 5rem;
-}
-.productos p {
+  background-image: url(../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 9px; }
+  .productos h2 {
+    padding-top: 1.87rem;
+    font-size: 5rem; }
+  .productos p {
     padding: 1.25rem 6.25rem 1.25rem 6.25rem;
-    font-size: x-large;
+    font-size: x-large; }
 
-   }
 .productos__pan {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  margin: 0.56rem 0px 0.56rem 0px; }
+  .productos__pan .productos__pan-row {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 3rem;
-    margin: 0.56rem 0px 0.56rem 0px;
-    
-}   
-.productos__pan-row {
-    background-color: rgba(255, 255, 255, 0.9);
-    color:  #86421d;
+    color: #86421d;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    font-size: 1.18rem;
-    
-    
-}
-
-.productos__pan ul {
-    text-decoration: none;
-    font-style: italic;
-}
-
-.pancito {
-    width: 6.25rem;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-}
-.pancitoimg {
+    font-size: 1.18rem; }
+    .productos__pan .productos__pan-row .productos__pan ul {
+      text-decoration: none;
+      font-style: italic; }
+  .productos__pan .pancitoimg {
     width: 100%;
-    text-align: center ;
-}
-
-
-/*FOOTER*/
-.footer {
-    margin-top: 0.62rem;
-    padding-top: 3.75rem;
-    height: 50vh;
-    display: grid;
-    grid-template-areas: 
-    "panaderia-Footer contacto-Footer mapa-Footer horarios-Footer";
-    grid-template-rows: 0.5fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 5px;
-    background-color: #820000;
-    color: white;
-        }
-    .panaderiaFooter {
-        grid-area: panaderia-Footer;
-    text-align: center;
-    }
-
-    .contactoFooter {
-        grid-area: contacto-Footer;
-        text-align: center;
-    }
-    
-    .mapaFooter { 
-        grid-area: mapa-Footer;
-    }
-
-    .horariosFooter {
-      grid-area: horarios-Footer;
+    text-align: center; }
+    .productos__pan .pancitoimg .pancito {
+      width: 6.25rem;
+      align-items: center;
       text-align: center;
-    }
+      justify-items: center; }
 
-    .contbold {
-        font-weight: bold;
-    }
-   
-    /*medidas queries*/
-    
- @media screen and (max-width:600px) {
-   
-    h1 { font-size: 2rem;}
-    .navi li { font-size: 0.9rem;
-        text-align: center;
-    }
-    .amoratodo {
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-    }
-    .amoratodo__img {
-        width: 105%;
-        text-align: center;
+/*CATERING*/
+.capacat {
+  background-color: #B93160;
+  color: white;
+  text-align: center;
+  padding: 2rem; }
+  .capacat p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.5rem; }
+  .capacat div {
+    text-align: right; }
+    .capacat div .pancin {
+      width: 3.5rem; }
 
-    }
-    .produ, .produimg {
-        display: none;
-    }
-        .footer {
-            margin-top: 0.62rem;
-            padding-top: 3.75rem;
-            height: 90vh;
-            display: grid;
-            grid-template-areas: 
-            "panaderia-Footer" 
-            "contacto-Footer" 
-            "mapa-Footer" 
-            "horarios-Footer";
-            grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-            grid-template-columns: 1fr; 
-            row-gap: 10px;
-            background-color: #820000;
-            color: white;
-                }
-            .panaderiaFooter {
-                grid-area: panaderia-Footer;
-            text-align: center;
+.catflex {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .catflex p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold; }
 
-            }
-        
-            .contactoFooter {
-                grid-area: contacto-Footer;
-                text-align: center;
-            }
-            
-            .mapaFooter { 
-                grid-area: mapa-Footer;
-                text-align: center;
-            }
-        
-            .horariosFooter {
-              grid-area: horarios-Footer;
-              text-align: center;
-            }
-        
-            .contbold {
-                font-weight: bold;
-            }
-    
-    .productos h2 {
-        font-size: 3rem;
-    }
-    .productos p {
-        font-size: 1.1rem;
-    }
-    .productos__pan ul {
-        font-size: 1rem;
-        
-    } .produimg2 { display: none;}
-        }
- 
-/*Prueba sass*/        
-.caja1 {
- width: 30rem;
- height: 1.5rem;
- margin: 0.5rem;
- border-radius: 0.4rem;
- box-shadow: 1px 1px;
-}
+.catmixto {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold; }

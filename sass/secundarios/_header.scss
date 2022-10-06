@@ -1,0 +1,39 @@
+/*HEADER*/
+
+.panaderiaNav {
+    font-family: 'Mitr', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #B93160;
+    text-align: center;
+    padding-bottom: 3.125rem; }
+
+    nav { 
+        margin-top: 10px;
+        .navi {
+            font-weight: bold;
+            font-size: 1.25rem;
+            text-align: center;
+            justify-content: center;
+            :hover {
+                transform: scale(0.9);
+                }
+            li {
+                    display: inline-block;
+                    padding-right: 0.93rem;
+                   
+                    a {
+                        text-decoration: none;
+                        color: black;                    
+                    }
+
+            }    
+
+
+
+     }  }
+
+
+
+

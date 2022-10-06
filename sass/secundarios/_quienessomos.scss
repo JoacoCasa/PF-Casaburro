@@ -1,0 +1,69 @@
+/*QUIENES SOMOS*/
+
+.somosfam {
+    background-color: rgb(232, 220, 220);
+    display: flex;
+    flex-direction: row;
+    div {
+        .ptitulo {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            justify-items: center;
+            padding: 1rem;
+            color: #B93160;
+            font-size: 2.5rem;
+            
+        }
+        p {
+            margin: 2rem;
+            text-align: center;
+        }
+    }
+}
+.somospan {
+    background-color: rgb(232, 220, 220);
+    display: flex;
+    flex-direction: row-reverse; 
+    div {
+        .ptitupan{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            justify-items: center;
+            padding: 1rem;
+            color: #B93160;
+            font-size: 2.5rem;
+        }
+        p {
+            margin: 2rem;
+            text-align: center;
+        }
+    }
+}
+.artesanalyabun {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    .artesanaltit {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        padding: 1rem;
+        color: white;
+        font-size: 2.5rem;
+    }
+    p {
+        margin: 1.5rem;
+        text-align: center;
+    }
+    button {
+width: 10rem;
+height: 3rem;
+margin-left: 84rem;
+margin-bottom: 1rem;
+
+
+    }
+}
