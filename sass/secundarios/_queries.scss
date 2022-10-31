@@ -1,7 +1,8 @@
 /*QUERIES*/
 
 @media screen and (max-width:1400px) {
-     
+
+    /*NAV*/
  h1 {
     display: none;
  }  
@@ -14,8 +15,15 @@
             width: 1.5rem;
             height: 1.5rem;
         }
+     }
+     .titnavbar {
+        color: #B93160;
+        font-weight:500;
+        font-size: 1.5rem;
+        text-decoration: none;
+     }
     }
- }
+ /*INDEX*/
     .amoratodo {
         padding: 0.9rem;
         display: flex;
@@ -29,6 +37,8 @@
     .produ, .produimg {
         display: none;
     }
+
+    /*FOOTER*/
         .footer {
             margin-top: 0.62rem;
             padding-top: 3.75rem;
@@ -80,5 +90,45 @@
         font-size: 1rem;
         
     } .produimg2 { display: none;}
-        }
+        
 
+/*CATERING*/
+.cateringbg {
+    .catflex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      img {
+        width: 27rem;
+      }
+    
+    }
+ }
+ .catmixto {
+    img {
+        width: 27rem;
+    }
+ }
+/*CONTACTO*/
+.imgcontacto {
+    display: none;
+}
+/*PRODUCTOS*/
+.productos__img {
+    img { 
+    display: none;
+}
+}
+/*QUIENES SOMOS*/
+.somospan {
+img {
+    display:none;
+    
+}
+}
+.somosfam {
+    img {
+        display: none;
+    }
+}
+}

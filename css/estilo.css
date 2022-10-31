@@ -166,6 +166,19 @@ nav {
     border: 2px solid #B93160;
     border-radius: 6px; }
 
+.youtube {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.2%;
+  margin-bottom: 20px; }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 /*PRODUCTOS*/
 .productos {
   background-image: url(../img/ales-krivec-QnNqGoCnBg0-unsplash.jpg);
@@ -291,6 +304,7 @@ main {
 
 /*QUERIES*/
 @media screen and (max-width: 1400px) {
+  /*NAV*/
   h1 {
     display: none; }
   nav {
@@ -298,6 +312,12 @@ main {
   nav .redesNav2 img {
     width: 1.5rem;
     height: 1.5rem; }
+  nav .titnavbar {
+    color: #B93160;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none; }
+  /*INDEX*/
   .amoratodo {
     padding: 0.9rem;
     display: flex;
@@ -307,6 +327,7 @@ main {
     text-align: center; }
   .produ, .produimg {
     display: none; }
+  /*FOOTER*/
   .footer {
     margin-top: 0.62rem;
     padding-top: 3.75rem;
@@ -339,4 +360,24 @@ main {
   .productos__pan ul {
     font-size: 1rem; }
   .produimg2 {
+    display: none; }
+  /*CATERING*/
+  .cateringbg .catflex {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .cateringbg .catflex img {
+      width: 27rem; }
+  .catmixto img {
+    width: 27rem; }
+  /*CONTACTO*/
+  .imgcontacto {
+    display: none; }
+  /*PRODUCTOS*/
+  .productos__img img {
+    display: none; }
+  /*QUIENES SOMOS*/
+  .somospan img {
+    display: none; }
+  .somosfam img {
     display: none; } }
