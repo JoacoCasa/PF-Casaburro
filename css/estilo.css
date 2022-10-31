@@ -14,9 +14,13 @@
   text-align: center;
   padding-bottom: 3.125rem; }
 
+.nav2 {
+  display: none; }
+
 nav {
   margin-top: 10px; }
   nav .navi {
+    padding-left: 25.62rem;
     font-weight: bold;
     font-size: 1.25rem;
     text-align: center;
@@ -29,6 +33,11 @@ nav {
       nav .navi li a {
         text-decoration: none;
         color: black; }
+    nav .navi span {
+      padding-left: 18.75rem; }
+      nav .navi span img {
+        width: 2rem;
+        height: 2rem; }
 
 /*FOOTER*/
 .footer {
@@ -95,8 +104,8 @@ nav {
   .produimg .produimg__1 {
     width: 25rem;
     height: 12.43rem; }
-  .produimg .produimg .produimg__3 {
-    width: 25rem;
+  .produimg .produimg__3 {
+    width: 23.125rem;
     height: 12.43rem; }
 
 /*QUIENES SOMOS*/
@@ -133,7 +142,8 @@ nav {
     text-align: center; }
 
 .artesanalyabun {
-  background-color: grey;
+  height: 25rem;
+  background-color: white;
   display: flex;
   flex-direction: column; }
   .artesanalyabun .artesanaltit {
@@ -142,16 +152,19 @@ nav {
     text-align: center;
     justify-items: center;
     padding: 1rem;
-    color: white;
+    color: black;
     font-size: 2.5rem; }
   .artesanalyabun p {
     margin: 1.5rem;
     text-align: center; }
-  .artesanalyabun button {
+  .artesanalyabun form input {
     width: 10rem;
     height: 3rem;
     margin-left: 84rem;
-    margin-bottom: 1rem; }
+    margin-top: 6rem;
+    background: transparent;
+    border: 2px solid #B93160;
+    border-radius: 6px; }
 
 /*PRODUCTOS*/
 .productos {
@@ -232,22 +245,24 @@ nav {
     font-weight: bold; }
 
 /*CONTACTOS*/
+header nav {
+  font-family: Roboto; }
+
 main {
   font-family: Roboto; }
   main .contactanos {
     background-color: #bac7ba;
     width: 100%;
-    height: 35rem;
+    height: 100%;
     font-family: Roboto; }
     main .contactanos .contacttit {
       text-align: center;
       font-size: 2.5rem;
       font-weight: bolder;
-      padding: 1.5rem; }
+      padding: 1rem; }
     main .contactanos .pcontact {
       font-size: 1.2rem;
       text-align: center;
-      padding-top: 1.3rem;
       font-family: Roboto; }
     main .contactanos .caja0 {
       padding: 0.5rem;
@@ -271,15 +286,18 @@ main {
         box-shadow: 1px 1px grey;
         font-family: Roboto; }
   main .imgcontacto {
+    padding-top: 0rem;
     width: 95rem; }
 
 /*QUERIES*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
   h1 {
-    font-size: 2rem; }
-  .navi li {
-    font-size: 0.9rem;
-    text-align: center; }
+    display: none; }
+  nav {
+    display: none; }
+  nav .redesNav2 img {
+    width: 1.5rem;
+    height: 1.5rem; }
   .amoratodo {
     padding: 0.9rem;
     display: flex;

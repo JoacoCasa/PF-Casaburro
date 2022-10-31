@@ -1,11 +1,21 @@
 /*QUERIES*/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1400px) {
      
-    h1 { font-size: 2rem;}
-    .navi li { font-size: 0.9rem;
-        text-align: center;
+ h1 {
+    display: none;
+ }  
+ nav {
+    display: none;
+ }
+ nav { 
+    .redesNav2 {
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
+ }
     .amoratodo {
         padding: 0.9rem;
         display: flex;
